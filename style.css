@@ -1,0 +1,74 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+.header {
+    font-size: 50px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+
+
+      
+
+}
+.icon {
+    height: 15vh;
+}
+.location,.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.location {
+    font-size: 40px;
+}
+.temperature{
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.degree{
+    display: flex;
+    align-items: center;
+}
+
+.degree-section{
+    font-size: 50px;
+}
+
+.temperature-description {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.temperature-degree {
+    align-items: center;
+    font-size: 40px;
+}
+.cord {
+    font-size: 27px;
+}
+
+.myCord, .myCord2 {
+    font-size: 27px;
+}
